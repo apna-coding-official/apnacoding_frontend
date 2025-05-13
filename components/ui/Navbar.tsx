@@ -3,10 +3,10 @@ import { useState, useEffect } from "react";
 import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { EnterDoor } from "@/app/icons/EnterDoor";
+import { EnterDoor } from "@/icons/EnterDoor";
 import { Button } from "./Button";
-import { Close } from "@/app/icons/Close";
-import { MenuBars } from "@/app/icons/MenuBars";
+import { Close } from "@/icons/Close";
+import { MenuBars } from "@/icons/MenuBars";
 
 export default function Navbar() {
     const router = useRouter();
