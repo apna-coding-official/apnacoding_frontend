@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import Navbar from "./components/ui/Navbar";
+import Navbar from "../components/ui/Navbar";
 
 export default function Home() {
     return (
